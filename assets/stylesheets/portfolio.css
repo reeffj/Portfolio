@@ -4,6 +4,11 @@
 /* #161616 Dark Gray - Accent*/
 /* #0284ff Baby Blue - Accent*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: white;
 }
