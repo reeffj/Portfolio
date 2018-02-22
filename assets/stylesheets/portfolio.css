@@ -1,0 +1,136 @@
+/*COLOR PALLET*/
+/* #54e202 Lime Green - Borders*/
+/* #323332 Space Gray - Content*/
+/* #161616 Dark Gray - Accent*/
+/* #0284ff Baby Blue - Accent*/
+
+body {
+    color: white;
+}
+
+
+
+
+/*Brand Styling*/
+
+
+
+
+.leftbrand {
+    font-size: 35px;
+    margin-top: 7px;
+    float: left;
+    height: 60px;
+    padding: 15px 15px;
+    font-size: 40px;
+    line-height: 20px;
+    color: white;
+}
+
+.leftbrand:hover,
+.leftbrand:focus {
+  text-decoration: none;
+}
+.leftbrand > img {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navbar > .container .leftbrand,
+  .navbar > .container-fluid .leftbrand {
+    margin-left: -15px;
+  }
+}
+
+.navbar-inverse .leftbrand {
+  color: white;
+}
+.navbar-inverse .leftbrand:hover,
+.navbar-inverse .leftbrand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse {
+	background-color: #323332;
+    border-bottom: 5px solid #54e202;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: white;
+}
+
+.navbar-inverse .leftbrand {
+	color: white;
+}
+
+
+
+
+/*Custom Jumbotron*/
+
+
+
+
+.jumbotron-custom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  color: inherit;
+  background-color: gray;
+}
+.jumbotron-custom h1,
+.jumbotron-custom .h1 {
+  color: inherit;
+}
+.jumbotron-custom p {
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron-custom > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron-custom,
+.container-fluid .jumbotron-custom {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+.jumbotron-custom .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 400px) {
+  .jumbotron-custom {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron-custom,
+  .container-fluid .jumbotron-custom {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron-custom h1,
+  .jumbotron-custom .h1 {
+    font-size: 75px;
+  }
+
+
+
+/*Thumbnail*/
+    
+    
+    
+
+.thumbnail {
+    background-color: #0284ff;
+    border-radius: 6px;
+}
+
+.thumbnail .thumbcaption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    text-align: left;
+    padding: 9px;
+    text-shadow: 0.5px 0.5px black;
+}
